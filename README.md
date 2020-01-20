@@ -1,5 +1,6 @@
-# :notebook: Assessing Data Notes -  [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/deepaksithu/Intro_to_Data_Wrangling/master?filepath=Intro%20to%20Data%20Wrangling.ipynb)
-This is a repository for notes from the Intro to Data Wrangling Lesson of the Udacity Data Analyst Nanodegree.
+
+# :notebook: Assessing Data Notes -  [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/deepaksithu/Assessing_Data_Notes/master?filepath=assessing.ipynb)
+This is a repository for notes from the Assessing Data Lesson of the Udacity Data Analyst Nanodegree.
 
 ## Table of Contents
 - [Overview](#overview)
@@ -9,21 +10,19 @@ This is a repository for notes from the Intro to Data Wrangling Lesson of the Ud
 - [License](#license)
 
 ## Overview
-In these notes a dataset for job postings is extracted, cleaned, and then analyzed quickly as an introduction to the process of data wrangling. The dataset takes the form of a series of job postings with several columns noting values such as the date of the posting, the company, and the job position. The dataset is analyzed using the `numpy` and `pandas` libraries, as well as `matplotlib` for visualizations.
+In these notes three datasets containing example medical record information about a new treatment are analyzed. The datasets are `adverse_reactions.csv` which contains patient first and last names as well as listed adverse reactions they experienced from the treatment, `patients.csv`  which contains patient information such as gender, address, and phone number, and `treatments.csv` which shows patient first and last name as well as which treatment they received and what their hba1c levels were at the start and end. The `common-programmatic-assessments.ipynb` file contains notes on common programmatic assessments in `pandas` which can be used on dataframes. In the `assessing.ipynb` file is visually and programmatically assessed to then be cleaned.
 
 ## Requirements
-This code depends on the following libraries:
-1. `pandas`
-2. `numpy`
-3. `matplotlib`
+This code depends on the `pandas` library.
 
-In addition to these, the Jupyter Notebook assumes that the data set, which was provided as a zip file, `armenian-online-job-postings.zip`, is in the project folder and, when extracted, provides a file, `online-job-postings.csv'
+In addition to these, the Jupyter Notebook assumes that the data sets, `adverse_reactions.csv`, `patients.csv`, and `treatments.csv` have been extracted and are in the project folder.
 
-The Binder badge above can be used to explore an executable environment for this project.
+The Binder badge above can be used to explore an executable environment for the `assessing.ipynb` file.
 
 ## Issues
 
 - organize files out of folder
+- save cleaned dataset as .csv
 - review notes
 
 ## Contact
